@@ -16,5 +16,5 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 })
 input.setSoundThreshold(SoundThreshold.Loud, 80)
 basic.forever(function () {
-	
+    basic.showNumber(input.acceleration(Dimension.Strength))
 })

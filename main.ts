@@ -2,8 +2,7 @@ input.onButtonPressed(Button.A, function () {
 	
 })
 input.onSound(DetectedSound.Loud, function () {
-    music.play(music.builtinPlayableSoundEffect(soundExpression.sad), music.PlaybackMode.UntilDone)
-    datalogger.log(datalogger.createCV("Time", input.soundLevel()))
+	
 })
 input.onButtonPressed(Button.B, function () {
 	
